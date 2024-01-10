@@ -1,17 +1,17 @@
-import axios from "axios";
+// import axios from "axios";
 
 const ApplyVisa = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("submit");
-    const form = e.target;
-    const name = form.name.value;
-    const email = form.email.value;
-    const address = form.address.value;
-    const occupation = form.occupation.value;
-    const passportimg = form.passportimg.value;
-    const prescriptionimg = form.prescriptionimg.value;
-    const reports = form.reports.value;
+    // const form = e.target;
+    // const name = form.name.value;
+    // const email = form.email.value;
+    // const address = form.address.value;
+    // const occupation = form.occupation.value;
+    // const passportimg = form.passportimg.value;
+    // const prescriptionimg = form.prescriptionimg.value;
+    // const reports = form.reports.value;
     // const userinfo = {
     //   name,
     //   email,
@@ -36,7 +36,7 @@ const ApplyVisa = () => {
   return (
     <div className="max-w-[1200px] mx-auto">
       <div className="lg:w-80% mx-auto">
-        <h1 className="text-center text-5xl font-bold my-20">Apply For Visa</h1>
+        <h1 className="text-center text-5xl font-bold mb-20 mt-32">Apply For Visa</h1>
         <form className="space-y-10" onSubmit={handleSubmit}>
           <div className="space-y-3">
             <h1 className="text-left text-2xl font-semibold">
@@ -138,7 +138,7 @@ const ApplyVisa = () => {
             </div>
           </div>
           <div className="form-control mt-6">
-            <button className="my-10 btn btn-primary">Apply</button>
+            <button className="my-10 md:w-[40%] mx-auto py-2 rounded-full shadow-lg hover:text-black border-2 border-[#829BFF] hover:bg-white  bg-[#829BFF] text-white duration-500 hover:shadow-2xl">Apply</button>
           </div>
         </form>
       </div>
