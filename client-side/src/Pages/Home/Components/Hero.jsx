@@ -33,7 +33,7 @@ const Hero = () => {
             Your Gateway to Exceptional Medical Care Across Borders.
             </Typography>
             <NavLink to="/">
-              <Button sx={{ mt: 3, fontSize: 18, fontWeight: "bold", py: 1.2, px: 2.3, bgcolor: "#829BFF" }} variant="contained" color="primary">
+              <Button sx={{ mt: 3, fontSize: 18, py: 1, px: 2, bgcolor: "#829BFF" }} variant="contained" color="primary">
               Explore
               </Button>
             </NavLink>
