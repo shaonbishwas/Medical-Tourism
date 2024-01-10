@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Smith",
+    "specialty": "Cardiologist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "City Medical Center",
+    "location": "City, Country",
+    "experience_years": 15,
+    "degrees": [
+      "Doctor of Medicine (MD)",
+      "Cardiology Residency",
+      "Fellowship in Interventional Cardiology"
+    ],
+    "working_days": ["Monday", "Wednesday", "Friday"],
+    "contact": {
+      "email": "john.smith@example.com",
+      "phone": "+1234567890"
+    },
+    "about_me": "Dr. John Smith is a highly skilled cardiologist with 15 years of experience in treating cardiovascular diseases. He is dedicated to providing compassionate and personalized care to his patients. Dr. Smith has a strong academic background and stays updated with the latest advancements in cardiology to offer the best possible treatment options."
+  },
+  {
+    "id": 2,
+    "name": "Dr. Sarah Johnson",
+    "specialty": "Orthopedic Surgeon",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Regional Ortho Hospital",
+    "location": "Town, Country",
+    "experience_years": 12,
+    "degrees": [
+      "Doctor of Medicine (MD)",
+      "Orthopedic Surgery Residency",
+      "Fellowship in Sports Medicine"
+    ],
+    "working_days": ["Tuesday", "Thursday", "Saturday"],
+    "contact": {
+      "email": "sarah.johnson@example.com",
+      "phone": "+0987654321"
+    },
+    "about_me": "Dr. Sarah Johnson is a skilled orthopedic surgeon specializing in surgical and non-surgical treatments for musculoskeletal conditions. With 12 years of experience, she is committed to providing comprehensive and patient-centered care. Dr. Johnson is actively involved in research and education within her field to ensure the latest and most effective treatments for her patients."
+  },
+  {
+    "id": 3,
+    "name": "Dr. Emily Rodriguez",
+    "specialty": "Pediatrician",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Happy Kids Clinic",
+    "location": "Suburb, Country",
+    "experience_years": 10,
+    "degrees": ["Doctor of Medicine (MD)", "Pediatrics Residency"],
+    "working_days": ["Monday", "Wednesday", "Friday"],
+    "contact": {
+      "email": "emily.rodriguez@example.com",
+      "phone": "+1122334455"
+    },
+    "about_me": "Dr. Emily Rodriguez is a compassionate pediatrician with 10 years of experience. She specializes in providing care for infants, children, and adolescents. Dr. Rodriguez is dedicated to creating a friendly and comfortable environment for her young patients and their families."
+  },
+  {
+    "id": 4,
+    "name": "Dr. James Anderson",
+    "specialty": "Dermatologist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Clear Skin Clinic",
+    "location": "Beach City, Country",
+    "experience_years": 18,
+    "degrees": ["Doctor of Medicine (MD)", "Dermatology Residency"],
+    "working_days": ["Tuesday", "Thursday", "Saturday"],
+    "contact": {
+      "email": "james.anderson@example.com",
+      "phone": "+3344556677"
+    },
+    "about_me": "Dr. James Anderson is an experienced dermatologist with a focus on skin health. With 18 years of practice, he is well-versed in treating various dermatological conditions. Dr. Anderson is dedicated to helping patients achieve and maintain healthy and radiant skin."
+  },
+  {
+    "id": 5,
+    "name": "Dr. Maria Lopez",
+    "specialty": "Gynecologist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Women's Wellness Center",
+    "location": "Metropolis, Country",
+    "experience_years": 14,
+    "degrees": [
+      "Doctor of Medicine (MD)",
+      "Obstetrics and Gynecology Residency"
+    ],
+    "working_days": ["Monday", "Wednesday", "Friday"],
+    "contact": {
+      "email": "maria.lopez@example.com",
+      "phone": "+5566778899"
+    },
+    "about_me": "Dr. Maria Lopez is a compassionate gynecologist specializing in women's health. With 14 years of experience, she provides comprehensive care for women of all ages. Dr. Lopez is committed to promoting wellness and empowering women to make informed healthcare decisions."
+  },
+  {
+    "id": 6,
+    "name": "Dr. Robert Chen",
+    "specialty": "Neurologist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Neurocare Institute",
+    "location": "Tech City, Country",
+    "experience_years": 20,
+    "degrees": [
+      "Doctor of Medicine (MD)",
+      "Neurology Residency",
+      "Fellowship in Neurophysiology"
+    ],
+    "working_days": ["Tuesday", "Thursday", "Saturday"],
+    "contact": {
+      "email": "robert.chen@example.com",
+      "phone": "+1122334455"
+    },
+    "about_me": "Dr. Robert Chen is a highly experienced neurologist with a focus on diagnosing and treating neurological disorders. With 20 years of practice, he is committed to providing personalized and advanced care for his patients. Dr. Chen is actively involved in neurology research to contribute to the understanding of brain health."
+  },
+  {
+    "id": 7,
+    "name": "Dr. Angela Davis",
+    "specialty": "Ophthalmologist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Clear Vision Clinic",
+    "location": "Skyline City, Country",
+    "experience_years": 16,
+    "degrees": ["Doctor of Medicine (MD)", "Ophthalmology Residency"],
+    "working_days": ["Monday", "Wednesday", "Friday"],
+    "contact": {
+      "email": "angela.davis@example.com",
+      "phone": "+3344556677"
+    },
+    "about_me": "Dr. Angela Davis is a skilled ophthalmologist specializing in eye health. With 16 years of experience, she provides comprehensive eye care services, including vision correction and eye disease management. Dr. Davis is dedicated to preserving and improving her patients' vision."
+  },
+  {
+    "id": 8,
+    "name": "Dr. Michael Wilson",
+    "specialty": "ENT Specialist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Sound Health Clinic",
+    "location": "Hillside, Country",
+    "experience_years": 14,
+    "degrees": ["Doctor of Medicine (MD)", "Otolaryngology Residency"],
+    "working_days": ["Tuesday", "Thursday", "Saturday"],
+    "contact": {
+      "email": "michael.wilson@example.com",
+      "phone": "+5566778899"
+    },
+    "about_me": "Dr. Michael Wilson is an ENT specialist with expertise in ear, nose, and throat care. With 14 years of experience, he provides comprehensive and personalized care for patients of all ages. Dr. Wilson is committed to improving the quality of life for individuals dealing with ENT-related issues."
+  },
+  {
+    "id": 9,
+    "name": "Dr. Linda Martinez",
+    "specialty": "Psychiatrist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Mind Wellness Center",
+    "location": "Downtown, Country",
+    "experience_years": 12,
+    "degrees": ["Doctor of Medicine (MD)", "Psychiatry Residency"],
+    "working_days": ["Monday", "Wednesday", "Friday"],
+    "contact": {
+      "email": "linda.martinez@example.com",
+      "phone": "+1122334455"
+    },
+    "about_me": "Dr. Linda Martinez is a compassionate psychiatrist specializing in mental health and well-being. With 12 years of experience, she provides comprehensive psychiatric care and therapy services. Dr. Martinez is committed to helping individuals achieve mental wellness and resilience."
+  },
+  {
+    "id": 10,
+    "name": "Dr. Richard Thompson",
+    "specialty": "Urologist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Urology Care Center",
+    "location": "Riverside, Country",
+    "experience_years": 18,
+    "degrees": ["Doctor of Medicine (MD)", "Urology Residency"],
+    "working_days": ["Tuesday", "Thursday", "Saturday"],
+    "contact": {
+      "email": "richard.thompson@example.com",
+      "phone": "+3344556677"
+    },
+    "about_me": "Dr. Richard Thompson is an experienced urologist specializing in the treatment of urological conditions. With 18 years of practice, he provides comprehensive care for both men and women. Dr. Thompson is dedicated to improving the overall urological health of his patients."
+  },
+  {
+    "id": 11,
+    "name": "Dr. Jessica Adams",
+    "specialty": "Rheumatologist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "hospital": "Joint Care Clinic",
+    "location": "Green Valley, Country",
+    "experience_years": 14,
+    "degrees": ["Doctor of Medicine (MD)", "Rheumatology Residency"],
+    "working_days": ["Monday", "Wednesday", "Friday"],
+    "contact": {
+      "email": "jessica.adams@example.com",
+      "phone": "+5566778899"
+    },
+    "about_me": "Dr. Jessica Adams is a dedicated rheumatologist with expertise in the diagnosis and management of rheumatic diseases. With 14 years of experience, she provides personalized care for patients dealing with arthritis and autoimmune conditions. Dr. Adams is committed to improving the quality of life for individuals with rheumatic disorders."
+  },
+  {
+    "id": 12,
+    "name": "Dr. Kevin Turner",
+    "specialty": "Dentist",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUJ_kOh-4mPOy2oYS6a7fe6gNfuF17uM61Q&usqp=CAU",
+    "clinic": "SmileCare Dental",
+    "location": "Sunnyville, Country",
+    "experience_years": 10,
+    "degrees": ["Doctor of Dental Medicine (DMD)", "Dental Surgery Residency"],
+    "working_days": ["Tuesday", "Thursday", "Saturday"],
+    "contact": {
+      "email": "kevin.turner@example.com",
+      "phone": "+1122334455"
+    },
+    "about_me": "Dr. Kevin Turner is a skilled dentist providing comprehensive dental care services. With 10 years of experience, he focuses on preventive and restorative dentistry to ensure the oral health of his patients. Dr. Turner is committed to creating beautiful and healthy smiles for individuals of all ages."
+  }
+]

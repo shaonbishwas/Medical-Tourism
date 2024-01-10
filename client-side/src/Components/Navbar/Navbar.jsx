@@ -15,6 +15,7 @@ import { Grid } from "@mui/material";
 
 const pages = [
   { label: "Home", path: "/" },
+  { label: "Doctors Lists", path: "/doctors" },
   { label: "Apply For Visa", path: "/applyvisa" },
   { label: "Contact us", path: "/contact" },
   { label: "About us", path: "/about" },
@@ -37,7 +38,7 @@ const Navbar = () => {
       <Container maxWidth="lg">
         <Toolbar disableGutters>
           <Grid container>
-            <Grid item lg={6}>
+            <Grid item lg={4}>
               <Hidden mdDown>
                 {/* <img
               src="https://i.postimg.cc/B6WgpTx8/output-onlinepngtools.png"
@@ -61,7 +62,7 @@ const Navbar = () => {
                 Medical Tourism
               </Typography>
             </Grid>
-            <Grid item lg={6} sx={{display: "flex", justifyContent: "flex-end"}}>
+            <Grid item lg={8} sx={{display: "flex", justifyContent: "flex-end"}}>
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
                 <IconButton
                   size="large"
