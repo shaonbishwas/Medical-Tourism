@@ -8,6 +8,7 @@ import Doctors from "./Pages/Doctors/Doctors.jsx";
 import ApplyVisa from "./Pages/ApplyVisa/ApplyVisa.jsx";
 import Error from "./Pages/Error/Error.jsx";
 import DoctorDetails from "./Pages/DoctorDetails/DoctorDetails.jsx";
+import Contact from "./Pages/Contact/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <></>,
+        element: <Contact></Contact>,
       },
       {
         path: "applyvisa",
