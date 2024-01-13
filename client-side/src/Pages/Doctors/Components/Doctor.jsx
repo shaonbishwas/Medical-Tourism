@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Doctor = ({doctor}) => {
     const {name, image, specialty, hospital} =doctor;
@@ -9,6 +10,7 @@ const Doctor = ({doctor}) => {
                 <h1 className='font-bold text-xl'>{name}</h1>
                 <h3>{specialty}</h3>
                 <p>{hospital}</p>
+                <Link to='/doctordetails'><button className='text-[#11B0F3]'>Details..</button></Link>
             </div>
         </div>
     );

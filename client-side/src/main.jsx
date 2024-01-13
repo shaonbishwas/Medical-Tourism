@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home.jsx";
 import Doctors from "./Pages/Doctors/Doctors.jsx";
 import ApplyVisa from "./Pages/ApplyVisa/ApplyVisa.jsx";
 import Error from "./Pages/Error/Error.jsx";
+import DoctorDetails from "./Pages/DoctorDetails/DoctorDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "doctors",
         element: <Doctors></Doctors>
+      },
+      {
+        path: "doctordetails",
+        element: <DoctorDetails></DoctorDetails>
       }
     ],
   },

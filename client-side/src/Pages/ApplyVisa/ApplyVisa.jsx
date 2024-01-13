@@ -38,12 +38,12 @@ const ApplyVisa = () => {
       <div className="lg:w-80% mx-auto">
         <h1 className="text-center text-5xl font-bold mb-20 mt-32">Apply For Visa</h1>
         <form className="space-y-10" onSubmit={handleSubmit}>
-          <div className="space-y-3">
-            <h1 className="text-left text-2xl font-semibold">
+          <div className="space-y-10">
+            <h1 className="text-left text-2xl font-semibold ">
               Passport Information
             </h1>
             <div className="grid grid-cols-2 gap-8 ">
-              <div className="form-control">
+              <div className="form-control flex flex-col space-y-2">
                 <label className="label">
                   <span className="label-text">Name</span>
                 </label>
@@ -51,11 +51,11 @@ const ApplyVisa = () => {
                   type="text"
                   placeholder="Name"
                   name="name"
-                  className="input input-bordered"
+                  className="p-2 border  rounded-lg"
                   required
                 />
               </div>
-              <div className="form-control">
+              <div className="form-control flex flex-col space-y-2">
                 <label className="label">
                   <span className="label-text">Email</span>
                 </label>
@@ -63,11 +63,11 @@ const ApplyVisa = () => {
                   type="email"
                   placeholder="Email"
                   name="email"
-                  className="input input-bordered"
+                  className="p-2 border  rounded-lg"
                   required
                 />
               </div>
-              <div className="form-control">
+              <div className="form-control flex flex-col space-y-2">
                 <label className="label">
                   <span className="label-text">Present Address</span>
                 </label>
@@ -75,11 +75,11 @@ const ApplyVisa = () => {
                   type="text"
                   placeholder="Address"
                   name="address"
-                  className="input input-bordered"
+                  className="p-2 border  rounded-lg"
                   required
                 />
               </div>
-              <div className="form-control">
+              <div className="form-control flex flex-col space-y-2">
                 <label className="label">
                   <span className="label-text">Occupation</span>
                 </label>
@@ -87,18 +87,18 @@ const ApplyVisa = () => {
                   type="text"
                   placeholder="Occupation"
                   name="occupation"
-                  className="input input-bordered"
+                  className="p-2 border  rounded-lg"
                   required
                 />
               </div>
             </div>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-5">
             <h1 className="text-left text-2xl font-semibold">
               Necessary Files
             </h1>
             <div className="grid grid-cols-2 gap-8">
-              <div className="form-control">
+              <div className="form-control flex flex-col space-y-2">
                 <label className="label">
                   <span className="label-text">Passport Image</span>
                 </label>
@@ -110,7 +110,7 @@ const ApplyVisa = () => {
                   required
                 />
               </div>
-              <div className="form-control">
+              <div className="form-control flex flex-col space-y-2">
                 <label className="label">
                   <span className="label-text">Prescription Image</span>
                 </label>
@@ -122,7 +122,7 @@ const ApplyVisa = () => {
                   required
                 />
               </div>
-              <div className="form-control">
+              <div className="form-control flex flex-col space-y-2">
                 <label className="label">
                   <span className="label-text">Reports image</span>
                 </label>
@@ -137,7 +137,7 @@ const ApplyVisa = () => {
               </div>
             </div>
           </div>
-          <div className="form-control mt-6">
+          <div className="form-control flex flex-col space-y-2 mt-6">
             <button className="my-10 md:w-[40%] mx-auto py-2 rounded-full shadow-lg hover:text-black border-2 border-[#829BFF] hover:bg-white  bg-[#829BFF] text-white duration-500 hover:shadow-2xl">Apply</button>
           </div>
         </form>

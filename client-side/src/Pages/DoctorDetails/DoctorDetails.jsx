@@ -1,7 +1,7 @@
 // import PropTypes from 'prop-types';
-
+import bg from '../../assets/detailsbg.jpg'
 const DoctorDetails = () => {
-  const {name} = {
+  const { name,image,about_me,degrees,working_days,specialty,contact } = {
     id: 1,
     name: "Dr. John Smith",
     specialty: "Cardiologist",
@@ -23,19 +23,40 @@ const DoctorDetails = () => {
     about_me:
       "Dr. John Smith is a highly skilled cardiologist with 15 years of experience in treating cardiovascular diseases. He is dedicated to providing compassionate and personalized care to his patients. Dr. Smith has a strong academic background and stays updated with the latest advancements in cardiology to offer the best possible treatment options.",
   };
-  return <div>
-    <div>
-        <img src="" alt="" />
-        <h1>{name}</h1>
-    </div>
-    <div>
-        <div>
-            <img src="" alt="" />
-            
+  return (
+    <div className="mt-16 max-w-[1200px] mx-auto">
+      <div className='relative flex items-center'>
+        <img src={bg} alt=""  />
+        <div className='bg-[#11B0F3] absolute w-full top-0  h-full opacity-80'></div>
+        <h1 className="absolute text-6xl font-bold text-center w-full text-white ">{name}</h1>
+      </div>
+      <div className='flex p-2 gap-10 my-16'>
+        <div className='w-[30%]'>
+          <img src={image} alt="" className='mx-auto' />
+          <div className='text-center'>
+            <h1 className='text-xl font-bold'>{name}</h1>
+            <h3>{specialty}</h3>
+            <hr className='border border-gray-400 my-1'/>
+            <p>{contact.phone}</p>
+            <p>{contact.email}</p>
+            <hr className='border border-gray-400 my-1'/>
+            <button className='bg-[#11B0F3] py-1 px-4 rounded-2xl text-white my-2'>Book Appointment</button>
+          </div>
         </div>
-        <div></div>
+        <div className='w-[70%]'>
+            <p>{about_me}</p>
+            <h1 className='text-3xl font-bold mt-5 mb-3'>Speciality</h1>
+            <div>
+              {degrees.map((deg, idx)=><li key={idx}>{deg}</li>)}
+            </div>
+            <h1 className='text-3xl font-bold mt-5 mb-3'>Work Days</h1>
+            <div className='flex gap-6'> 
+              {working_days.map((day, idx)=><span key={idx}>{day}</span>)}
+            </div>
+        </div>
+      </div>
     </div>
-  </div>;
+  );
 };
 
 // DoctorDetails.propTypes = {
